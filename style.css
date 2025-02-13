@@ -89,6 +89,9 @@ main {
   height: 60px;
 }
 
+.nav-link{
+  font-size: 18px;
+}
 
 .nav-link:hover{
 color: #8644a3;
