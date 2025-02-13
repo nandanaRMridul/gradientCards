@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Atkinson Hyperlegible Next", serif;
+}
+
+
+main {
+  background-color: #f3f5f3;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: azure;
+  width: 250px;
+  height: 350px;
+  border-radius: 15px;
+  margin-right: 20px;
+  transition: all 0.5s ease-out;
+}
+
+.card1 {
+  background: linear-gradient(to top, #5a5bbf 50%, white 50%);
+  background-size: 100% 200%;
+  background-position: top;
+  color: black;
+}
+
+.card1:hover {
+  background-position: bottom;
+  color: #f3f5f3;
+}
+
+.card2 {
+  background-image: linear-gradient(to top, red, red, #eff30f, #0c8d00);
+  background-size: 100% 300%;
+  background-position: top;
+}
+
+.card2:hover {
+  background-position: bottom;
+  background-color: red;
+  color: #f3f5f3;
+}
+
+.card3 {
+  background-color: #ff6f4a;
+  background-image: linear-gradient(to bottom right, #ff6f4a, #ff6f4a, #666b9e);
+
+}
+
+.card3:hover {
+  background-image: linear-gradient(to bottom right, #ff6f4a, #ff6f4a, #ff6f4a);
+  color: #f3f5f3;
+}
+
+.cards h3 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.cards p {
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.nav-item{
+  width: max-content;
+}
+
+.container{
+  height: 60px;
+}
+
+
+.nav-link:hover{
+color: #8644a3;
+text-decoration: underline;
+}
+
+.nav-link:active {
+  color:#6c1c8e;
+}
